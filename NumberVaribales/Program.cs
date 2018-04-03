@@ -16,6 +16,10 @@ namespace NumberVaribales
             float f1 = float.MinValue;
             float f2 = float.MaxValue;
             Console.WriteLine("float Min = " + f1 + "\nfloat Max = " + f2);
+            double d1 = double.MinValue;
+            double d2 = double.MaxValue;
+            Console.WriteLine("double Min = " + d1 + "\ndouble Max = " + d2);
+
             Console.ReadKey();
 
         }
